@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html {
+	background: #040404;
+}
+// VARIABLES
+
+$space-cadet: #283044;
+$bittersweet: #f87060;
+$gainsboro: #ebebeb;
+$marigold: #f0a202;
+$zomp: #2ca58d;
+
+$dark-gray: rgb(4, 4, 4);
+$gray: rgb(18, 18, 18);
+$white: rgb(253, 253, 255);
+$silver: rgb(198, 197, 185);
+$accent: rgb(88, 164, 176);
+$light-gray: rgb(150, 150, 150);
+
+// ATOMIC
+
+.b-rad {
+	border-radius: 6px;
+}
+
+.text-main {
+	color: $white;
+}
+
+.bg-main {
+	background: $dark-gray;
+}
+
+.bg-component {
+	background: $gray;
+}
+
+.text-secondary {
+	color: $silver;
+}
+
+.accent {
+	color: $accent;
+}
+
+// THEMES
+
+$themes: (
+	"dark": (
+		"colors": (
+			
+		)));
