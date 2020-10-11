@@ -1,0 +1,33 @@
+@import '/src/styles.scss';
+
+.profile-container {
+  background: $gray;
+  margin-top: 90px;
+
+  .profile-photo {
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -90px;
+    height: 180px;
+  }
+
+  .name {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .position {
+    text-align: center;
+  }
+}
+
+hr {
+  border-top: 2px solid $grayer;
+  width: 20%;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 3px;
+}

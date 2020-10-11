@@ -1,0 +1,44 @@
+@import '/src/styles.scss';
+
+.projects-container {
+  background: $gray;
+
+  .skill {
+    color: $white;
+    padding: 6px;
+    margin: 0 10px;
+    background: $grayer;
+    font-weight: 600;
+    border: 2px solid $grayer;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      color: $bittersweet;
+      cursor: pointer;
+    }
+
+    &.selected {
+      color: $bittersweet;
+      border: 2px solid $bittersweet;
+    }
+
+    &.disabled {
+      color: $silver;
+      background: $dark-gray;
+      border: 2px solid $dark-gray;
+    }
+  }
+  
+  .project {
+    .project-image {
+      max-width: 100%;
+    }
+    &:nth-of-type(odd){
+      padding-left: 3rem !important;
+    }
+    &:nth-of-type(even){
+      padding-right: 3rem !important;
+    }
+  }
+
+}

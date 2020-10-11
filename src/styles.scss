@@ -1,7 +1,14 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 html {
-	background: #040404;
+	font-family: Lato, sans-serif;
+	background: rgb(10, 10, 15);
+}
+
+.component {
+	background: rgb(10, 10, 15);
+	padding: 20px 0;
 }
 // VARIABLES
 
@@ -11,12 +18,47 @@ $gainsboro: #ebebeb;
 $marigold: #f0a202;
 $zomp: #2ca58d;
 
-$dark-gray: rgb(4, 4, 4);
-$gray: rgb(18, 18, 18);
-$white: rgb(253, 253, 255);
-$silver: rgb(198, 197, 185);
+$dark-gray: rgb(10, 10, 15);
+$gray: rgb(18, 18, 22);
+$grayer: rgb(30, 30, 36);
+$white: rgb(250, 250, 255);
+$silver: rgb(190, 190, 180);
 $accent: rgb(88, 164, 176);
-$light-gray: rgb(150, 150, 150);
+$light-gray: rgb(150, 150, 158);
+$gray-600: rgb(100, 100, 105);
+$gray-500: rgb(65, 65, 70);
+// GENERAL
+
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+	color: $white;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 18px;
+	color: $light-gray;
+}
 
 // ATOMIC
 
