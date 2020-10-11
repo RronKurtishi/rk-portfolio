@@ -1,0 +1,23 @@
+<div class="projects-container b-rad w-50 mx-auto">
+  <h1 class="text-center py-4">Projects</h1>
+  <div class="skills text-center py-2">
+    <span *ngFor="let skill of skills; let i = index" class="skill b-rad" (click)="clickedEvent(i)">{{ skill.name }}</span>
+  </div>
+  <div class="row">
+    <div class="col-6 project p-4">
+      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    </div>
+    <div class="col-6 project p-4">
+      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    </div>
+    <div class="col-6 project p-4">
+      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    </div>
+    <div class="col-6 project p-4">
+      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    </div>
+    <div class="col-6 project p-4">
+      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    </div>
+  </div>
+</div>
