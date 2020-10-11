@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "rating": "5",
+    "name": "Deal or No Deal Game",
+    "description": "A 'Deal or No deal' game all in the front end. Created to learn and test my JavaScript knowledge. Written mostly in pre-ES5.",
+    "tags": [
+      "html",
+      "css",
+      "bootstrap 4",
+      "JavaScript"
+    ],
+    "github": "",
+    "githubPages": "",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "2",
+    "rating": "5",
+    "name": "Color Picker",
+    "description": "A game for guessing which color is displayed in a RGB value. Made for the Web Developer Bootcamp course by Colt Steele.",
+    "tags": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "github": "",
+    "githubPages": "",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "3",
+    "rating": "5",
+    "name": "The Broker",
+    "description": "A website developed for a client. Personal information is redacted. There is an abomination of this website out there being used.",
+    "tags": [
+      "html",
+      "css",
+      "bootstrap 4",
+      "javascript"
+    ],
+    "github": "",
+    "githubPages": "",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "4",
+    "rating": "5",
+    "name": "999 Construction",
+    "description": "A demo website for a construction company. Made to learn Bootstrap 4.",
+    "tags": [
+      "html",
+      "css",
+      "bootstrap 4"
+    ],
+    "github": "",
+    "githubPages": "",
+    "images": [
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "5",
+    "rating": "5",
+    "name": "Archite.design",
+    "description": "A wordpress news site for a local company. Heavily customized theme.",
+    "tags": [
+      "html",
+      "css",
+      "wordpress"
+    ],
+    "github": "",
+    "githubPages": "",
+    "images": [
+      "",
+      ""
+    ]
+  }
+]
