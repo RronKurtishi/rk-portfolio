@@ -1,89 +1,74 @@
 [
   {
     "id": "1",
-    "rating": "5",
+    "rating": "6",
     "name": "Deal or No Deal Game",
     "description": "A 'Deal or No deal' game all in the front end. Created to learn and test my JavaScript knowledge. Written mostly in pre-ES5.",
     "tags": [
-      "html",
-      "css",
-      "bootstrap 4",
+      "HTML",
+      "CSS",
+      "Bootstrap 4",
       "JavaScript"
     ],
     "github": "",
     "githubPages": "",
-    "images": [
-      "",
-      ""
-    ]
+    "image": "/assets/images/projects/dealornodeal.jpg"
   },
   {
     "id": "2",
-    "rating": "5",
+    "rating": "4",
     "name": "Color Picker",
     "description": "A game for guessing which color is displayed in a RGB value. Made for the Web Developer Bootcamp course by Colt Steele.",
     "tags": [
-      "html",
-      "css",
-      "javascript"
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
     "github": "",
     "githubPages": "",
-    "images": [
-      "",
-      ""
-    ]
+    "image": "/assets/images/projects/colorgame.jpg"
   },
   {
     "id": "3",
-    "rating": "5",
+    "rating": "6",
     "name": "The Broker",
     "description": "A website developed for a client. Personal information is redacted. There is an abomination of this website out there being used.",
     "tags": [
-      "html",
-      "css",
-      "bootstrap 4",
-      "javascript"
+      "HTML",
+      "CSS",
+      "Bootstrap 4",
+      "JavaScript"
     ],
     "github": "",
     "githubPages": "",
-    "images": [
-      "",
-      ""
-    ]
+    "image": "/assets/images/projects/thebroker.jpg"
   },
   {
     "id": "4",
-    "rating": "5",
+    "rating": "3",
     "name": "999 Construction",
     "description": "A demo website for a construction company. Made to learn Bootstrap 4.",
     "tags": [
-      "html",
-      "css",
-      "bootstrap 4"
+      "HTML",
+      "CSS",
+      "Bootstrap 4"
     ],
     "github": "",
     "githubPages": "",
-    "images": [
-      "",
-      ""
-    ]
+    "image": "/assets/images/projects/placeholder.jpg"
   },
   {
     "id": "5",
-    "rating": "5",
+    "rating": "6",
     "name": "Archite.design",
     "description": "A wordpress news site for a local company. Heavily customized theme.",
     "tags": [
-      "html",
-      "css",
-      "wordpress"
+      "HTML",
+      "CSS",
+      "Wordpress"
     ],
     "github": "",
     "githubPages": "",
-    "images": [
-      "",
-      ""
-    ]
+    "image": "/assets/images/projects/archite.jpg"
   }
 ]
