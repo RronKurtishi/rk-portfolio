@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import projects from '../../../assets/files/projects.json';
 
 @Component({
   selector: 'app-projects',
@@ -8,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   clicked: boolean = false;
   id: number;
-  
+  public projects = projects;
+
   skills: any[] = [
     {id: 1, name: 'HTML'},
     {id: 2, name: 'CSS'},
