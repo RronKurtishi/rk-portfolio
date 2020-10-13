@@ -32,10 +32,11 @@
 
 .project-container {
   .project {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
-      url('/assets/images/placeholder.jpg');
     height: 18rem;
     padding: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
     .links {
       float: right;
