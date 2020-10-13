@@ -5,31 +5,33 @@
       (click)="clickedEvent(i)">{{ skill.name }}</span>
   </div>
   <div class="row">
-    <div class="col-6 project-container p-4">
+    <div class="col-6 project-container p-4" *ngFor="let project of projects">
+      
       <div class="project b-rad">
         <div class="links">
-          <span class="link b-rad" (mouseover)="onHoverDemo()" (mouseout)="onMouseOutDemo()">
+          <span class="link b-rad">
             <span>Demo</span>
-            <img [src]="imgSrcDemo">
+            <img src="../../../assets/images/demo.svg">
             <!-- https://www.flaticon.com/free-icon/personal-computer-screen_74634?term=screen&page=1&position=42 -->
           </span>
-          <span class="link b-rad" (mouseover)="onHoverGithub()" (mouseout)="onMouseOutGithub()">
+          <span class="link b-rad">
             <span>GitHub</span>
-            <img [src]="imgSrcGithub">
+            <img src="../../../assets/images/github.svg">
             <!-- https://www.flaticon.com/free-icon/github-logo_37318?term=github&page=1&position=3 -->
           </span>
         </div>
         <div class="project-content">
-          <h3>Project Name</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus voluptatum, non asperiores porro
-            animi inventore natus distinctio hic?</p>
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.description }}</p>
           <div class="tags">
-            <span class="skill-nc b-rad">HTML</span>
-            <span class="skill-nc b-rad">CSS</span>
-            <span class="skill-nc b-rad">JavaScript</span>
+            <span class="skill-nc b-rad" *ngFor="let tags of project.tags">{{ tags }}</span>
           </div>
         </div>
       </div>
+
+
+       
+
     </div>
   </div>
 </div>

@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { SingleProjectComponent } from './components/single-project/single-project.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { SingleProjectComponent } from './components/single-project/single-proje
     HeaderComponent,
     ProfileComponent,
     ProjectsComponent,
-    SingleProjectComponent,
   ],
   imports: [
     BrowserModule,

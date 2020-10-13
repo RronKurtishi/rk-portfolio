@@ -31,27 +31,25 @@
 }
 
 .project-container {
-	.project {
-		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
-			url('/assets/images/placeholder.jpg');
-		height: 18rem;
+  .project {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+      url('/assets/images/placeholder.jpg');
+    height: 18rem;
     padding: 1rem;
     
     .links {
       float: right;
-
+  
       .link {
         display: inline-block;
         background: $grayer;
-        padding: 0.4rem;
+        padding: 0.2rem 0.4rem;
         margin-left: 0.5rem;
-
+  
         &:hover {
           cursor: pointer;
-
-          span {
-            color: $bittersweet;
-          }
+          background: $bittersweet;
+          transition: all 0.2s ease-in;
         }
         
         span {
@@ -62,46 +60,47 @@
           font-weight: 600;
           padding-left: 0.3rem;
         }
-
+  
         img {
           width: 1.4rem;
         }
       }
     }
+  
+    .project-content {
+      position: absolute;
+      bottom: 2.5rem;
+      width: 80%;
+  
+      h3 {
+        font-size: 1.6rem;
+        margin: 0;
+      }
+  
+      p {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0.4rem 0;
+      }
+  
+      .skill-nc {
+        color: $white;
+        font-size: 0.8rem;
+        padding: 4px;
+        margin: 0 5px;
+        background: $grayer;
+        font-weight: 600;
+        border: 2px solid $grayer;
+        transition: all 0.2s ease-in;
+  
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+  }
 
-		.project-content {
-			position: absolute;
-			bottom: 2.5rem;
-			width: 80%;
-
-			h3 {
-				font-size: 1.6rem;
-				margin: 0;
-			}
-
-			p {
-				font-size: 0.9rem;
-				font-weight: 500;
-				margin: 0;
-				padding: 0.4rem 0;
-			}
-
-			.skill-nc {
-				color: $white;
-				font-size: 0.8rem;
-				padding: 4px;
-				margin: 0 5px;
-				background: $grayer;
-				font-weight: 600;
-				border: 2px solid $grayer;
-				transition: all 0.2s ease-in;
-
-				&:first-of-type {
-					margin-left: 0;
-				}
-			}
-		}
-	}
 	&:nth-of-type(odd) {
 		padding-left: 3rem !important;
 	}

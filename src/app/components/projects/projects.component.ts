@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import projects from '../../../assets/files/projects.json';
 
 @Component({
   selector: 'app-projects',
@@ -8,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   clicked: boolean = false;
   id: number;
-  imgSrcDemo: string = "../../../assets/images/demo.svg";
-  imgSrcGithub: string = "../../../assets/images/github.svg"
+  public projects = projects;
+
   skills: any[] = [
     {id: 1, name: 'HTML'},
     {id: 2, name: 'CSS'},
@@ -28,21 +29,5 @@ export class ProjectsComponent implements OnInit {
   clickedEvent(i: number): void {
     let element = document.getElementsByClassName('skill')[i];
     element.classList.toggle("selected");
-  }
-
-  onHoverDemo() {
-    this.imgSrcDemo = "../../../assets/images/demo-hover.svg"
-  }
-
-  onMouseOutDemo() {
-    this.imgSrcDemo = "../../../assets/images/demo.svg";
-  }
-
-  onHoverGithub() {
-    this.imgSrcGithub = "../../../assets/images/github-hover.svg"
-  }
-
-  onMouseOutGithub() {
-    this.imgSrcGithub = "../../../assets/images/github.svg"
   }
 }
