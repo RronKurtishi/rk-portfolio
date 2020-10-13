@@ -1,0 +1,10 @@
+@import '/src/styles.scss';
+
+.contact-form-container {
+  background: $gray;
+  color: $white;
+
+  .form-control {
+    border: 1px solid $grayer;
+  }
+}
