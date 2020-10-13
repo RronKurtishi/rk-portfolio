@@ -13,10 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new components to `app.component`
 - Added images and icons
 - Display projects in `components/projects` by iterating through JSON file
+- Added JSON file with projects
+- Implemented the search feature for projects
 
 ### Changed
 - Made header sticky
 - Added bootstrap logo
+- Added placeholder image for projects
 
 ### Fixed
 
