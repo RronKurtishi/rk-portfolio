@@ -1,23 +1,35 @@
 <div class="projects-container b-rad w-50 mx-auto">
   <h1 class="text-center py-4">Projects</h1>
   <div class="skills text-center py-2">
-    <span *ngFor="let skill of skills; let i = index" class="skill b-rad" (click)="clickedEvent(i)">{{ skill.name }}</span>
+    <span *ngFor="let skill of skills; let i = index" class="skill b-rad"
+      (click)="clickedEvent(i)">{{ skill.name }}</span>
   </div>
   <div class="row">
-    <div class="col-6 project p-4">
-      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
-    </div>
-    <div class="col-6 project p-4">
-      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
-    </div>
-    <div class="col-6 project p-4">
-      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
-    </div>
-    <div class="col-6 project p-4">
-      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
-    </div>
-    <div class="col-6 project p-4">
-      <img src="assets/images/placeholder.jpg" class="project-image b-rad">
+    <div class="col-6 project-container p-4">
+      <div class="project b-rad">
+        <div class="links">
+          <span class="link b-rad" (mouseover)="onHoverDemo()" (mouseout)="onMouseOutDemo()">
+            <span>Demo</span>
+            <img [src]="imgSrcDemo">
+            <!-- https://www.flaticon.com/free-icon/personal-computer-screen_74634?term=screen&page=1&position=42 -->
+          </span>
+          <span class="link b-rad" (mouseover)="onHoverGithub()" (mouseout)="onMouseOutGithub()">
+            <span>GitHub</span>
+            <img [src]="imgSrcGithub">
+            <!-- https://www.flaticon.com/free-icon/github-logo_37318?term=github&page=1&position=3 -->
+          </span>
+        </div>
+        <div class="project-content">
+          <h3>Project Name</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus voluptatum, non asperiores porro
+            animi inventore natus distinctio hic?</p>
+          <div class="tags">
+            <span class="skill-nc b-rad">HTML</span>
+            <span class="skill-nc b-rad">CSS</span>
+            <span class="skill-nc b-rad">JavaScript</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

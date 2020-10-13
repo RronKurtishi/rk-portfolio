@@ -4,6 +4,13 @@
 html {
 	font-family: Lato, sans-serif;
 	background: rgb(10, 10, 15);
+	cursor: default;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;
+	 -khtml-user-select: none;
+		 -moz-user-select: none;
+			-ms-user-select: none;
+					user-select: none;
 }
 
 .component {
@@ -29,7 +36,7 @@ $gray-600: rgb(100, 100, 105);
 $gray-500: rgb(65, 65, 70);
 // GENERAL
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
 	font-weight: 700;
 	color: $white;
 }
